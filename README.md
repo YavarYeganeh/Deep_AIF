@@ -20,3 +20,7 @@ torch>=2.1.1
 numpy>=1.24.3
 simpy>=4.0.1
 ```
+
+## Contact
+
+For inquiries or collaboration, please reach out to **yavar.taheri@polimi.it** or **yavaryeganeh@gmail.com**.
