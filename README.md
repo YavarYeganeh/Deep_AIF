@@ -24,3 +24,15 @@ simpy>=4.0.1
 ## Contact
 
 For inquiries or collaboration, please reach out to **yavar.taheri@polimi.it** or **yavaryeganeh@gmail.com**.
+
+## Citation
+
+Yeganeh, Y. T., Jafari, M., & Matta, A. (2025). Deep Active Inference Agents for Delayed and Long-Horizon Environments. *arXiv preprint arXiv:2505.19867*.
+```
+@article{yeganeh2025deep,
+  title={Deep Active Inference Agents for Delayed and Long-Horizon Environments},
+  author={Yeganeh, Yavar Taheri and Jafari, Mohsen and Matta, Andrea},
+  journal={arXiv preprint arXiv:2505.19867},
+  year={2025}
+}
+```
