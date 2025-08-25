@@ -56,6 +56,13 @@ python train.py --seed <random_seed> --batch <batch_size> --horizon <depth> --sa
 - **--replay_policy_update** : If set, also uses replay scenarios during policy gradient when training (dreaming in a batch of scenarios, encouraging generic policy learning).
 - **--npf** : If set, employs a different form of preference function with sigmoid scaling of the energy-saving element (suggested).
 
+Example:
+
+```
+python train.py --batch 1 --horizon 300 --reward_multiplier 14 --replay_policy_update --npf
+```
+
+
 ## Citation
 
 Yeganeh, Y. T., Jafari, M., & Matta, A. (2025). Deep Active Inference Agents for Delayed and Long-Horizon Environments. *arXiv preprint arXiv:2505.19867*.
