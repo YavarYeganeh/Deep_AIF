@@ -412,7 +412,7 @@ class Prod_System:  # This is the environment with whom the agent interacts
 
 class System:
 
-    def __init__(self, env, number_of_systems=1, dmodel=None, warmup=True, warmup_time=warm_up_time):
+    def __init__(self, env, number_of_systems=1, dmodel=None, warmup=True, warmup_time=warm_up_time, reward_multiplier=None):
 
         self.env = env
         
