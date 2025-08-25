@@ -1,14 +1,15 @@
-<h2 align="center">Deep Active Inference Agents for Delayed and Long-Horizon Environments</h2>  
+<h2 align="center">
+  <a href="https://arxiv.org/abs/2505.19867" target="_blank">
+    Deep Active Inference Agents for Delayed and Long-Horizon Environments
+  </a>
+</h2>
 <p align="center">
     <a href="https://yavaryeganeh.github.io/">Yavar Taheri Yeganeh</a>
     ·
     <a href="https://ise.rutgers.edu/mohsen-jafari">Mohsen Jafari</a>
     ·
     <a href="https://www.mecc.polimi.it/en/research/faculty/prof-andrea-matta">Andrea Matta</a>
-    <br>
-    <a href="https://arxiv.org/abs/2505.19867">📄 Read the Paper (arXiv:2505.19867)</a>
-    </p>
-    
+</p>   
 ---
 ![Deep_AIF_Agents](img/daif_arch.png)
 
@@ -24,7 +25,7 @@ Along with the **Deep AIF** implementation and supporting codes, the current rep
 *More codes will be released soon!*
 
 <p align="center">
-<a href="https://arxiv.org/abs/2505.19867">📄 Read the Paper (arXiv:2505.19867)</a>
+    <a href="https://arxiv.org/abs/2505.19867">📄 Read the Paper (arXiv:2505.19867)</a>
 </p>
 
 ## Requirements
