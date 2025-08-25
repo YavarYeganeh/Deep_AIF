@@ -42,7 +42,7 @@ cd ./Deep_AIF
 Then, train the agent by running:
 
 ```
-python train.py --seed <random_seed> --batch <batch_size> --horizon <horizon_length> --samples <number_of_samples> --calc_mean --num_threads <num_threads> --reward_multiplier <reward_multiplier> --replay_policy_update --npf
+python train.py --seed <random_seed> --batch <batch_size> --horizon <horizon_length> --samples <number_of_samples> --num_threads <num_threads> --reward_multiplier <reward_multiplier> --replay_policy_update --npf
 ```
 
 ### Usage: train.py [-h]
@@ -51,7 +51,6 @@ python train.py --seed <random_seed> --batch <batch_size> --horizon <horizon_len
 - -b, --batch : Select batch size, i.e., number of environments used for training (default: 1).
 - --horizon : Horizon length for the transition (default: 300).
 - --samples : Number of samples to be used for Expected Free Energy (EFE) calculation (default: 10).
-- --calc_mean : Flag to include the mean during EFE calculations.
 - --num_threads : Number of threads to use (CPU only, default: 30).
 - --reward_multiplier : Multiplier applied to the production reward (default: 20).
 - --replay_policy_update : If set, also uses replay scenarios during policy planning when training (encourages learning a generic policy).
