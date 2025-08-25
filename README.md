@@ -23,6 +23,10 @@ Along with the **Deep AIF** implementation and supporting codes, the current rep
 
 *More codes will be released soon!*
 
+<p align="center">
+<a href="https://arxiv.org/abs/2505.19867">📄 Read the Paper (arXiv:2505.19867)</a>
+</p>
+
 ## Requirements
 
 You need a Python environment with the following libraries (and other supporting ones):
