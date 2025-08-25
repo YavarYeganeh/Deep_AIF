@@ -51,7 +51,7 @@ python train.py --seed <random_seed> --batch <batch_size> --horizon <depth> --sa
 - **-b, --batch** : Select batch size, i.e., number of environments used for training (default: 1).
 - **--horizon** : The depth for the signle lookahead transition (default: 300).
 - **--samples** : Number of samples to be used for Expected Free Energy (EFE) calculation (default: 10).
-- **--num_threads** : Number of threads to use (CPU only, default: 30).
+- **--num_threads** : Number of threads to use (CPU only, default: 4).
 - **--reward_multiplier** : Multiplier applied to the production reward (default: 20).
 - **--replay_policy_update** : If set, also uses replay scenarios during policy gradient when training (dreaming in a batch of scenarios, encouraging generic policy learning).
 - **--npf** : If set, employs a different form of preference function with sigmoid scaling of the energy-saving element (suggested).
