@@ -18,6 +18,8 @@ With the recent success of world-model agents—which extend the core idea of mo
 
 Along with the **Deep AIF** implementation and supporting codes, the current repository also includes a simulated industrial environment that mimics a realistic industrial scenario with delayed and long-horizon settings. The empirical results confirm the effectiveness of the proposed approach, demonstrating that the coupled world-model with the AIF formalism yields an end-to-end probabilistic controller capable of effective decision making in delayed, long-horizon settings without handcrafted rewards or expensive planning. More benchmarks and results will be included.
 
+📄 [Read the Paper](https://arxiv.org/abs/2505.19867)
+
 *More codes will be released soon!*
 
 ## Requirements
