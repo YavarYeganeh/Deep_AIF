@@ -4,7 +4,9 @@
     ·
     <a href="https://ise.rutgers.edu/mohsen-jafari">Mohsen Jafari</a>
     ·
-    <a href="https://www.mecc.polimi.it/en/research/faculty/prof-andrea-matta">Andrea Matta</a>
+    <a href="https://www.mecc.polimi.it/en/research/faculty/prof-andrea-matta">Andrea Matta</a> <br>
+
+    <a href="https://arxiv.org/abs/2505.19867">Read the Paper arXiv:2505.19867</a> 
     
 ---
 ![Deep_AIF_Agents](img/daif_arch.png)
