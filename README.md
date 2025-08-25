@@ -30,6 +30,15 @@ numpy>=1.24.3
 simpy>=4.0.1
 ```
 
+## Usage
+
+Clone the source code by running:
+
+```
+git clone https://github.com/YavarYeganeh/Deep_AIF.git
+cd ./Deep_AIF
+```
+
 ## Contact
 
 For inquiries or collaboration, please reach out to **yavar.taheri@polimi.it** or **yavaryeganeh@gmail.com**.
