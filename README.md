@@ -10,6 +10,7 @@
     ·
     <a href="https://www.mecc.polimi.it/en/research/faculty/prof-andrea-matta">Andrea Matta</a>
 </p>   
+
 ---
 ![Deep_AIF_Agents](img/daif_arch.png)
 
