@@ -29,10 +29,10 @@ parser.add_argument('-b', '--batch', type=int, default=1, help='Select batch siz
 parser.add_argument('--horizon', type=int, default=300, help='Horizon for the transition') 
 parser.add_argument('--samples', type=int, default=10, help='How many samples should be used to calculate EFE') 
 parser.add_argument('--calc_mean', action='store_true', help='Whether mean should be considered during calculation of EFE')
-parser.add_argument('--num_threads', type=int, default=30, help="Number of threads to use (only for CPU)")
-parser.add_argument('--reward_multiplier', type=int, default=20, help="Reward multiplier for the production reward")
-parser.add_argument('--replay_policy_update', action='store_true', help= "To also use replay scenarios during the policy planning when training (motivating learning a generic policy!)")
+parser.add_argument('--num_threads', type=int, default=4, help="Number of threads to use (only for CPU)")
+parser.add_argument('--replay_policy_update', action='store_true', help= "To also use replay scenarios during the policy planning when training (dreaming in a batch of scenarios, encouraging generic policy learning!)")
 parser.add_argument('--npf', action='store_true', help= "To employ the new preference function that features sigmoid scaling of the energy-saving element!")
+parser.add_argument('--reward_multiplier', type=int, default=20, help="Reward multiplier for the production reward")
 args = parser.parse_args()
 
 if args.npf:
