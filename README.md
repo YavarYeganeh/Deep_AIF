@@ -42,23 +42,19 @@ cd ./Deep_AIF
 Then, train the agent by running:
 
 ```
-python train.py --seed <random_seed> --batch <batch_size> --horizon <horizon_length> --samples <number_of_samples> --num_threads <num_threads> --reward_multiplier <reward_multiplier> --replay_policy_update --npf
+python train.py --seed <random_seed> --batch <batch_size> --horizon <depth> --samples <number_of_samples> --num_threads <num_threads> --reward_multiplier <reward_multiplier> --replay_policy_update --npf
 ```
 
 ### Usage: train.py [-h]
 
-- --seed : Random seed (default: 0).
-- -b, --batch : Select batch size, i.e., number of environments used for training (default: 1).
-- --horizon : Horizon length for the transition (default: 300).
-- --samples : Number of samples to be used for Expected Free Energy (EFE) calculation (default: 10).
-- --num_threads : Number of threads to use (CPU only, default: 30).
-- --reward_multiplier : Multiplier applied to the production reward (default: 20).
-- --replay_policy_update : If set, also uses replay scenarios during policy planning when training (encourages learning a generic policy).
-- --npf : If set, employs the new preference function with sigmoid scaling of the energy-saving element.
-
-## Contact
-
-For inquiries or collaboration, please reach out to **yavar.taheri@polimi.it** or **yavaryeganeh@gmail.com**.
+- **--seed** : Random seed (default: 0).
+- **-b, --batch** : Select batch size, i.e., number of environments used for training (default: 1).
+- **--horizon** : The depth for the signle lookahead transition (default: 300).
+- **--samples** : Number of samples to be used for Expected Free Energy (EFE) calculation (default: 10).
+- **--num_threads** : Number of threads to use (CPU only, default: 30).
+- **--reward_multiplier** : Multiplier applied to the production reward (default: 20).
+- **--replay_policy_update** : If set, also uses replay scenarios during policy gradient when training (dreaming in a batch of scenarios, encouraging generic policy learning).
+- **--npf** : If set, employs a different form of preference function with sigmoid scaling of the energy-saving element (suggested).
 
 ## Citation
 
@@ -71,3 +67,7 @@ Yeganeh, Y. T., Jafari, M., & Matta, A. (2025). Deep Active Inference Agents for
   year={2025}
 }
 ```
+
+## Contact
+
+For inquiries or collaboration, please reach out to **yavar.taheri@polimi.it** or **yavaryeganeh@gmail.com**.
