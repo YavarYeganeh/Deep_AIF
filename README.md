@@ -12,7 +12,9 @@
 </p>   
 
 ---
-![Deep_AIF_Agents](img/daif_arch.png)
+<p align="center">
+  <img src="img/daif_arch.png" alt="Deep_AIF_Agents" width="500"/>
+</p>
 
 With the recent success of world-model agents—which extend the core idea of model-based reinforcement learning by learning a differentiable model for sample-efficient control across diverse tasks—active inference (AIF) offers a complementary, neuroscience-grounded paradigm that unifies perception, learning, and action within a single probabilistic framework powered by a generative model. Despite this promise, practical AIF agents still rely on accurate immediate predictions and exhaustive planning, a limitation that is exacerbated in delayed environments requiring plans over long horizons—tens to hundreds of steps. Moreover, most existing agents are evaluated on robotic or vision benchmarks which, while natural for biological agents, fall short of real-world industrial complexity. **Deep AIF** addresses these limitations with a **generative–policy architecture** featuring:
 
