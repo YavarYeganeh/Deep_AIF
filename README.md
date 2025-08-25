@@ -6,6 +6,8 @@
     ·
     <a href="https://www.mecc.polimi.it/en/research/faculty/prof-andrea-matta">Andrea Matta</a>
 
+    📄 [Read the Paper arXiv:2505.19867](https://arxiv.org/abs/2505.19867)
+
 ---
 ![Deep_AIF_Agents](img/daif_arch.png)
 
@@ -17,8 +19,6 @@ With the recent success of world-model agents—which extend the core idea of mo
 - **(iv)** Single gradient step that plans over long horizons, eliminating exhaustive planning from the control loop.
 
 Along with the **Deep AIF** implementation and supporting codes, the current repository also includes a simulated industrial environment that mimics a realistic industrial scenario with delayed and long-horizon settings. The empirical results confirm the effectiveness of the proposed approach, demonstrating that the coupled world-model with the AIF formalism yields an end-to-end probabilistic controller capable of effective decision making in delayed, long-horizon settings without handcrafted rewards or expensive planning. More benchmarks and results will be included.
-
-📄 [Read the Paper](https://arxiv.org/abs/2505.19867)
 
 *More codes will be released soon!*
 
