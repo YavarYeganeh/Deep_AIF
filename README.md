@@ -42,7 +42,7 @@ cd ./Deep_AIF
 Then, train the agent by running:
 
 ```
-python train.py --seed <random_seed> --batch <batch_size> --horizon <depth> --samples <number_of_samples> --num_threads <num_threads> --reward_multiplier <reward_multiplier> --replay_policy_update --npf
+python train.py --seed <random_seed> --batch <batch_size> --horizon <depth> --samples <number_of_samples> --num_threads <num_threads> --replay_policy_update --npf --reward_multiplier <reward_multiplier>
 ```
 
 ### Usage: train.py [-h]
@@ -52,14 +52,15 @@ python train.py --seed <random_seed> --batch <batch_size> --horizon <depth> --sa
 - **--horizon** : The depth for the signle lookahead transition (default: 300).
 - **--samples** : Number of samples to be used for Expected Free Energy (EFE) calculation (default: 10).
 - **--num_threads** : Number of threads to use (CPU only, default: 4).
-- **--reward_multiplier** : Multiplier applied to the production reward (default: 20).
 - **--replay_policy_update** : If set, also uses replay scenarios during policy gradient when training (dreaming in a batch of scenarios, encouraging generic policy learning).
 - **--npf** : If set, employs a different form of preference function with sigmoid scaling of the energy-saving element (suggested).
+- **--reward_multiplier** : Multiplier applied to the production reward, effective with --npf (default: 20).
+
 
 Example:
 
 ```
-python train.py --batch 1 --horizon 300 --reward_multiplier 14 --replay_policy_update --npf
+python train.py --horizon 300 --replay_policy_update --npf --reward_multiplier 20 
 ```
 
 
