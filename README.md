@@ -63,6 +63,7 @@ Example:
 python train.py --horizon 300 --replay_policy_update --npf --reward_multiplier 20 
 ```
 
+During training, the code records comprehensive data on the agent’s performance and training statistics across epochs in `results/signature/`, where *signature* represents a combination of the timestamp and settings.  Finally, it produces `stats_final.pkl` in the same folder, containing all collected information.
 
 ## Citation
 
