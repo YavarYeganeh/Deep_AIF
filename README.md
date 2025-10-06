@@ -9,9 +9,10 @@
     <a href="https://ise.rutgers.edu/mohsen-jafari">Mohsen Jafari</a>
     ·
     <a href="https://www.mecc.polimi.it/en/research/faculty/prof-andrea-matta">Andrea Matta</a>
-</p>   
+</p>
 
 ---
+
 <p align="center">
   <img src="img/daif_arch.png" alt="Deep_AIF_Agents" width="700"/>
 </p>
@@ -28,7 +29,8 @@ Along with the **Deep AIF** implementation and supporting codes, the current rep
 *More codes will be released soon!*
 
 <p align="center">
-    <a href="https://arxiv.org/abs/2505.19867">📄 Read the Paper (arXiv:2505.19867)</a>
+    <a href="https://arxiv.org/abs/2505.19867">📄 Read the Paper (arXiv:2505.19867)</a><br>
+    <a href="slides/DAIF_LOD_22-09-25_u.pdf">📈 Slides </a>
 </p>
 
 ## Requirements
@@ -67,7 +69,6 @@ python train.py --seed <random_seed> --batch <batch_size> --horizon <depth> --sa
 - **--npf** : If set, employs a different form of preference function with sigmoid scaling of the energy-saving element (suggested).
 - **--reward_multiplier** : Multiplier applied to the production reward, effective with --npf (default: 20).
 
-
 Example:
 
 ```
@@ -79,6 +80,7 @@ During training, the code records comprehensive data on the agent’s performanc
 ## Citation
 
 Yeganeh, Y. T., Jafari, M., & Matta, A. (2025). Deep Active Inference Agents for Delayed and Long-Horizon Environments. *arXiv preprint arXiv:2505.19867*.
+
 ```
 @article{yeganeh2025deep,
   title={Deep Active Inference Agents for Delayed and Long-Horizon Environments},
